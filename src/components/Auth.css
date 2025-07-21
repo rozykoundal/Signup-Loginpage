@@ -198,3 +198,28 @@ body {
     font-size: 2rem;
   }
 }
+
+.password-group {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2;
+  color: #999;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.password-toggle:active {
+  color: #667eea;
+}
+
+.password-group input {
+  padding-right: 44px;
+}
